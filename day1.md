@@ -19,6 +19,8 @@ Shufan
 5. block stamp is controlled by the miner, which would be +-15s, this can be inaccurate and exploit by the miner, but too early or too late will all be bad.
 6. each contract protect its own storage.
 7. solidity allow divide 0, which will return 0.
+8. inheritance linerization.
+9. When Solidity constructors take arguments, include them in the header or at the constructor of the derived contracts.
 
 ## Questions
 

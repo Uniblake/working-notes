@@ -1,3 +1,15 @@
+# 15.02.2022
+
+Shufan
+
+## Finished
+
+- writing own smart contract
+
+- writing tests
+
+## Notes
+
 1. inheritance: virtual: this function can be overloaded, override: this function is overriding another function. https://medium.com/upstate-interactive/solidity-override-vs-virtual-functions-c0a5dfb83aaf
 2. abstract contract: if there is any function un-implemented in a contract, then it is an abstract contract.
 3. address:
@@ -19,5 +31,5 @@
 
 
 questions:
-1. create2
-2. how self-destruct is executed, how the contract address is computed. 
+1. create2: precompute the contract address and then deploy it.
+2. how self-destruct is executed. 

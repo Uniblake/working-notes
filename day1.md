@@ -4,6 +4,10 @@ Shufan
 
 ## Finished
 
+- writing own smart contract
+
+- evm basics from Hubert
+
 
 ## Notes
 

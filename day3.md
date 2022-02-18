@@ -32,9 +32,12 @@ Shufan
 14. functions outside any contract is free functions, they are implicitly internal, and will be included in any contract that call them.
 15. dynamic array is only available in storage but not in memory 
 16. fallback: when call a function not exist, when no receive function, when no function signature is specified in a call (a call with empty call data).
-17. the first 4 bytes of a function call select the function.
-
-
+17. the first 4 bytes of a function call select the function, the function signature is computed by keccak256 the function name together with only the parameters type.
+18. get the signature of a function in the contract: this.func.selector.
+19. modifying ether of a smart contract: 
+    1. selfdestruct: can force send ether to an address, if the address is a contract, then no function (fallback) will be called.
+    2. present ether: compute the contract address, and then send the ether to this address before the contract is deployed.
+    
 
 ## Answers to the questions:
 1. 

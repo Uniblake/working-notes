@@ -26,7 +26,10 @@ Shufan
     1. var: the scope is the function body
     2. let: the scope is inside the bracket {}
 8. inline assembly: do operations that solidity cannot, which may save gas
-
+9. levels of call, send, transfer: 
+    1. call, lowest, no protection
+    2. send, with return, with stack depth and gas limits, will not revert the transaction
+    3. transfer, with extra protection, if revert, then revert whole transaction, and has gas limit.
 
 
 

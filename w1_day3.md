@@ -31,3 +31,7 @@ Shufan
 26. amid
 27. gauge
 28. intervention
+29. cushion
+30. fathom
+31. liabilities
+32. Depreciation

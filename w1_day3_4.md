@@ -55,3 +55,5 @@ Shufan
 46. fungible
 47. margin trading: Margin refers to the money a trader borrows from their broker to purchase securities. Trading on margin is a way to boost your stock or crypto buying power.
 48. tweak
+49. forays
+50. upfront
